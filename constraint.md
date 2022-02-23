@@ -1,8 +1,8 @@
 
 # Constraint (Restrições)
 
-São regras básicas estabelecidas para o preenchimento de uma ou mais colunas de uma tabela.
-Ou seja, restrigem os dados que podem ser salvos nas colunas.
+São regras básicas estabelecidas para o preenchimento de uma ou mais colunas de uma 
+tabela. Ou seja, restrigem os dados que podem ser salvos nas colunas.
 
 Principais:
 - Not null
