@@ -1,4 +1,10 @@
-# Alterando Tabelas
+# DML - Data Manipulation Language
+
+Linguagem de Manipulação de Dados ( DML, de Data Manipulation Language) é uma família de 
+linguagens de computador utilizada para a recuperação, inclusão, remoção e modificação de 
+informações em bancos de dados.
+
+Fonte: https://pt.wikipedia.org/wiki/Linguagem_de_manipula%C3%A7%C3%A3o_de_dados
 
 ```sql
 -- Acrescentar campos em uma tabela

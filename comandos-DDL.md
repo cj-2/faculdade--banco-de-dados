@@ -1,4 +1,10 @@
-# DDL Data Definition Language
+# DDL - Data Definition Language
+
+Significa "Linguagem de definição de dados". DDL é uma linguagem usada para definir estruturas 
+de dados e modificar dados. Por exemplo, os comandos DDL podem ser usados ​​para adicionar, 
+remover ou modificar tabelas dentro de um banco de dados.
+
+Fonte: https://techlib.wiki/definition/ddl.html
 
 ```sql
 -- Criação da Tabela
