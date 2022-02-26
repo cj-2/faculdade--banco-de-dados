@@ -41,7 +41,7 @@ where job_id = (
 | Operador | Significado                                            |
 | -------- | ------------------------------------------------------ |
 | IN       | Igual a qualquer membro da lista.                      |
-| ANY      | Qualquer um da lista.                                  |
+| ANY      | Compara o valor com cada valor retornado pela subquery |
 | ALL      | Compara com todos os valores retornados pela subquery. |
 | EXISTS   | Trata se um valor existe na list.                      |
 
@@ -127,4 +127,11 @@ select first_name, job_id, salary,
         else 'NÃO AUMENTAR' -- padrao
     END classificacao -- nome da coluna que rece o case.
 from EMPLOYEES
+```
+
+```sql
+select last_name deapartament_id, job_id
+from employee where departament_id in (
+    select deapartament_id where location_id = 1700
+)
 ```
